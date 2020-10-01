@@ -1,0 +1,27 @@
+    #form-container {
+
+        background-color: white;
+        width: 100%;
+        min-height: $xl;
+        margin-bottom: $s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        h3{
+            font-size: $text-xl;
+            padding-bottom: $xxxxs;
+        }
+
+        label, input{
+            color:black;
+            font-size: $text-xl;
+        }
+        form{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+    
